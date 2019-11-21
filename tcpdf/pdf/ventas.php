@@ -155,7 +155,7 @@ EOD;
                     <td style="border: 1px solid #666;">$item[totalVenta]</td>
                 </tr>
             </table>
-
+s
 EOF;
 
 // Print text using writeHTMLCell()
@@ -257,7 +257,7 @@ EOF;
         </table>
 
 
- <table style="text-align:center; font-size:20px;background-color:#F85833; color:#fff;">
+ <table style="text-align:center; font-size:20px;background-color:#0FE4E9; color:#fff;">
                  <tr>
                  <td></td>
                  <td>SUBTOTAL :</td>
@@ -265,7 +265,7 @@ EOF;
                 </tr>
                 <tr>
                  <td></td>
-                 <td>IVA(18%) :</td>
+                 <td>IVA(21%) :</td>
                       <td>$ $iva</td>
                 </tr>
                  <tr>
@@ -276,7 +276,7 @@ EOF;
               </table>
 
 </div>
-       <table style="text-align:center; font-size:7px;background-color:#3895F4; color:#fff;">
+       <table style="text-align:center; font-size:7px;background-color:#E9E80F; color:#fff;">
          <tr>
          <td><h3>Haga su pedido online www.carloncho.pe</h3></td>
          </tr>

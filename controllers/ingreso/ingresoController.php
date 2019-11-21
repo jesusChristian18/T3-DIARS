@@ -10,7 +10,7 @@ class Ingreso{
 			if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["nombre"])&&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["password"])){
 
-			   	// $encriptar = crypt($_POST["passwordIngreso"], '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$');
+			   	
 
 				$datosController = array("nombreAdmin"=>$_POST["nombre"],
 				                     "password"=>$_POST["password"]);
